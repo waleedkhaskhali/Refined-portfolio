@@ -7,6 +7,11 @@ import 'font-awesome/css/font-awesome.min.css';
 import {
   DiReact,
   DiJavascript1,
+  DiGit,
+  DiBootstrap,
+  DiSass,
+  DiNodejsSmall,
+
 } from "react-icons/di";
 
 function App() {
@@ -169,11 +174,34 @@ function App() {
                         <h4><strong>JAVASCRIPT</strong></h4>
                        
                     </div>
+                    
                     <div class="col-lg-3 col-md-6">
                         <span class="service-icon rounded-circle mx-auto mb-3"><DiReact size="3rem" color="white"></DiReact></span>
                         <h4><strong>REACT</strong></h4>    
                     </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><DiGit size="3rem" color="white"></DiGit></span>
+                        <h4><strong>GIT</strong></h4>
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><DiBootstrap size="3rem" color="white"></DiBootstrap></span>
+                        <h4><strong>BOOTSTRAP</strong></h4>
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><DiSass size="3rem" color="white"></DiSass></span>
+                        <h4><strong>SASS</strong></h4>
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                      
+                        <span class="service-icon rounded-circle mx-auto mb-3"><DiNodejsSmall size="3rem" color="white"></DiNodejsSmall></span>
+                        <h4><strong>NODE</strong></h4>
+                       
+                    </div>
                 </div>
+                
             </div>
         </section>
         <section><footer>HELLO</footer></section>   
