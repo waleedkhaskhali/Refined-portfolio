@@ -4,6 +4,11 @@ import './App.css'
 import logo from './bird.jpg'
 import {useState} from 'react'
 import 'font-awesome/css/font-awesome.min.css';
+import realestate from "./Realestate.png"
+import one from "./1.png"
+import two from "./2.png"
+import three from "./3.png"
+import four from "./4.png"
 import {
   DiReact,
   DiJavascript1,
@@ -11,7 +16,6 @@ import {
   DiBootstrap,
   DiSass,
   DiNodejsSmall,
-
 } from "react-icons/di";
 
 function App() {
@@ -58,7 +62,7 @@ function App() {
     <div class="row shuffle-wrapper">
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="" class="img-fluid rounded w-100"></img>
+          <img src={realestate} alt="" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
@@ -68,7 +72,7 @@ function App() {
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="portfolio-image" class="img-fluid rounded w-100"></img>
+          <img src={one} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
@@ -78,7 +82,7 @@ function App() {
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="portfolio-image" class="img-fluid rounded w-100"></img>
+          <img src={two} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
@@ -88,7 +92,7 @@ function App() {
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="portfolio-image" class="img-fluid rounded w-100"></img>
+          <img src={three} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
@@ -98,7 +102,7 @@ function App() {
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="portfolio-image" class="img-fluid rounded w-100"></img>
+          <img src={four} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
@@ -138,13 +142,6 @@ function App() {
                       started coding I wasnt able to stop. I always wanted to learn more and
                        more. Because of coding I switched my major to computer science, in
                        abitions of aquiring new and useful skills.</p></div>
-                </div>
-                
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
                 </div>
             </div>
         </section>
