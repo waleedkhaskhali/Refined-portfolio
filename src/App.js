@@ -4,11 +4,12 @@ import './App.css'
 import logo from './bird.jpg'
 import {useState} from 'react'
 import 'font-awesome/css/font-awesome.min.css';
-import realestate from "./Realestate.png"
-import one from "./1.png"
-import two from "./2.png"
-import three from "./3.png"
-import four from "./4.png"
+import realestate from "./Realestate.png";
+import one from "./1.png";
+import two from "./2.png";
+import three from "./3.png";
+import four from "./4.png";
+import five from "./5.png";
 import {
   DiReact,
   DiJavascript1,
@@ -17,6 +18,10 @@ import {
   DiSass,
   DiNodejsSmall,
 } from "react-icons/di";
+import  {
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 
 function App() {
 
@@ -43,7 +48,7 @@ function App() {
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder" id="home">Waleed Khaskhali</h1>
                     <p class="lead fw-normal text-white-50 mb-0">Front-End Developer</p>
-                    <button type="button" className="btn btn-primary">Learn More</button>
+                    <a class="btn btn-light btn-sm" href="#about">Learn More</a>
                 </div>
             </div>
         </header>
@@ -59,43 +64,14 @@ function App() {
                     <div class="divider-custom-icon"><i className="fa fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                
     <div class="row shuffle-wrapper">
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src={realestate} alt="" class="img-fluid rounded w-100"></img>
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src={one} alt="portfolio-image" class="img-fluid rounded w-100"></img>
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+    <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src={two} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src={three} alt="portfolio-image" class="img-fluid rounded w-100"></img>
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-sm" href="https://kaskali.netlify.app" target="blank">view project</a>
             </div>
           </div>
         </div>
@@ -105,21 +81,34 @@ function App() {
           <img src={four} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-sm" href="https://waleedstodo.netlify.app" target="blank">view project</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src={logo} alt="portfolio-image" class="img-fluid rounded w-100"></img>
+          <img src={five} alt="portfolio-image" class="img-fluid rounded w-100"></img>
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-sm" href="https://waleed-khaskhali.netlify.app" target="blank">view project</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src={realestate} alt="" class="img-fluid rounded w-100"></img>
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/waleedkhaskhali/Real-Estate" target="blank">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+      
     </div>
   </div>
 </section>
@@ -201,7 +190,63 @@ function App() {
                 
             </div>
         </section>
-        <section><footer>HELLO</footer></section>   
+        <section><footer class="text-center text-lg-start bg-dark text-muted">
+
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <div class="me-5 d-none d-lg-block">
+      <span>Connect with me:</span>
+    </div>
+
+    <div>
+ 
+      <a href="https://www.linkedin.com/in/waleed-khaskhali/" target="blank" class="me-5 text-reset">
+      <AiFillLinkedin size="3rem"></AiFillLinkedin>
+      </a>
+      <a href="https://github.com/waleedkhaskhali" target="blank" class="me-4 text-reset">
+        <AiFillGithub size="3rem"></AiFillGithub>
+      </a>
+    </div>
+
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+
+      <div class="row mt-3">
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Portfolio
+          </h6>
+          <p>
+         Innovating one project at a time
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fa fa-home me-3"></i> 2113 East 33rd st Brooklyn, NY, 11234</p>
+          <p>
+            <i class="fa fa-envelope me-3"></i>
+            wkhaskhalu@gmail.com
+          </p>
+          <p><i class="fa fa-phone me-3"></i> 1-929-235-4345</p>
+
+        </div>
+ 
+      </div>
+ 
+    </div>
+  </section>
+
+
+
+</footer></section>   
     </div>
   );
 }
